@@ -1,0 +1,23 @@
+{
+  "name": "cv_ndia_djellali",
+  "version": "1.0.0",
+  "description": "my_cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadiaWho/CV_Ndia_Djellali.git"
+  },
+  "keywords": [
+    "cv",
+    "react"
+  ],
+  "author": "Nadia Djellali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NadiaWho/CV_Ndia_Djellali/issues"
+  },
+  "homepage": "https://github.com/NadiaWho/CV_Ndia_Djellali#readme"
+}
