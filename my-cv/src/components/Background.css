@@ -1,0 +1,16 @@
+img {
+    width: 100%;
+    position: absolute;
+    margin-top: -1.5rem;
+}
+
+#leitmotiv {
+    position: relative;
+    text-align: center;
+    font-size: 1.7rem;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.40,#ff9a9e), color-stop(0.05, #e0c3fc), color-stop(0.90,#b490ca) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-top: 3rem;
+}
