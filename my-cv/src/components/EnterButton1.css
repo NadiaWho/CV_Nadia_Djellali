@@ -1,0 +1,31 @@
+
+#glow{
+  display: flex;
+  flex-direction: column;
+	text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+	letter-spacing: 0.1em;
+}
+
+h1 { z-index: 2;}
+#glow{
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+  	-webkit-animation: glow 2s ease-in-out infinite alternate;
+  	animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes glow {
+  from{
+    text-shadow: 0 0 10px #fff, 0 0 20px #F5E6FF, 0 0 30px pink;
+    color:#F5E6FF;
+    }
+  to{
+    text-shadow: 0 0 0px #fff;
+    color: pink;
+    }
+}
