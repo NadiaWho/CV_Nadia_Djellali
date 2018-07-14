@@ -5,7 +5,7 @@ import './Background.css'
 const Background = () => {
   return (
       <div>
-        <img src= { img } />
+        <img src= { img } alt='la_Défense'/>
         <p id='leitmotiv'>"Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie" - Confucius</p>
       </div>
     )
