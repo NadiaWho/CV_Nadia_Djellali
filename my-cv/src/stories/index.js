@@ -34,4 +34,6 @@ storiesOf('Skills logos', module)
   .add('multy skills', () => 
     <SkillsLogos onClick={action('clicked')}/>)
 
+
+
   
