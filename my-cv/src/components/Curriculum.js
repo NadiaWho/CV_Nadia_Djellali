@@ -1,7 +1,8 @@
 import React from 'react'
 import './Curriculum.css'
 
-import SkillsLogos from './SkillsLogos';
+import SkillsLogos from './SkillsLogos'
+import Hobbies from './Hobbies'
 
 
 class Curriculum extends React.Component {
@@ -9,6 +10,7 @@ class Curriculum extends React.Component {
         return (
             <div id='curriculum'>
             <SkillsLogos />
+            <Hobbies />
             </div>
         )
     }
