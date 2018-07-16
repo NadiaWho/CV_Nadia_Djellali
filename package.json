@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/NadiaWho/CV_Ndia_Djellali/issues"
   },
-  "homepage": "https://github.com/NadiaWho/CV_Ndia_Djellali#readme"
+  "homepage": "https://github.com/NadiaWho/CV_Ndia_Djellali#readme",
+  "dependencies": {
+    "@reach/router": "^1.1.1"
+  }
 }
