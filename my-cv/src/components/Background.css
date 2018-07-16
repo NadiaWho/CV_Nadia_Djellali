@@ -2,6 +2,7 @@ img {
     width: 100%;
     position: absolute;
     margin-top: -1.5rem;
+    opacity: 0.8;
 }
 
 #leitmotiv {

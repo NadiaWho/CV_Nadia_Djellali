@@ -1,17 +1,15 @@
 .socials {
     position: absolute;
     font: normal 48px/normal "Warnes", Helvetica, sans-serif; 
-    color: rgba(255,255,255,1);
-    color: white;
     z-index: 8000;
     font-size: 5em;
     margin-left: 5em;
     padding-top: 2em;
     text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 15px rgba(255,255,255,1)  , 0 0 20px #e8147b ;
-    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
   }
   
 .socials li {
@@ -24,7 +22,7 @@
     text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 
-::before {
+.socials ::before {
     color: white;
 }
 
