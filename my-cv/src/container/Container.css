@@ -1,0 +1,18 @@
+.container-content {
+  padding: 1em;
+  width: 25%;
+  /* margin: 0 2em 0; */
+  border-radius: 0.5em;
+  box-shadow: 0 0em 0.625em rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+@media screen and (max-width: 45em) {
+
+  .container-content {
+
+    padding: 2em;
+    width: 70%;
+ }
+
+} 
