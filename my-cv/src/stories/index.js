@@ -10,6 +10,7 @@ import EnterButton3 from '../components/EnterButton3'
 import EnterButton4 from '../components/EnterButton4'
 import SocialLogos from '../components/SocialLogos'
 import SkillsLogos from '../components/SkillsLogos'
+import Hobbies from '../components/Hobbies'
 
 import Container from '../container/Container'
 
@@ -37,3 +38,6 @@ storiesOf('container', module)
 
 storiesOf('skills logos', module)
   .add('skills', () => <SkillsLogos />)
+
+storiesOf('hobbies logos', module)
+  .add('hobbies', () => <Hobbies />)

@@ -1,11 +1,10 @@
 import React from 'react'
-import Container from '../container/Container.js'
-import './SkillsLogos.css'
+import ContainerMin from '../containers/ContainerMin'
+import './SkillsLogos.css'  
 
-class SkillsLogos extends React.Component {
-    render () {
+const SkillsLogos = () => {
         return (
-            <Container>
+            <ContainerMin>
             <div className='skills'>
                 <ul>
                     <li><i className="fab fa-html5"></i></li>
@@ -25,9 +24,8 @@ class SkillsLogos extends React.Component {
 		
                 </ul>
             </div>
-            </Container>
+            </ContainerMin>
         )
     }
-}
 
 export default SkillsLogos
