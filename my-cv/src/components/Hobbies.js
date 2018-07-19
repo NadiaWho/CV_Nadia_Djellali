@@ -1,7 +1,7 @@
 import React from 'react'
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 
-import Container from '../container/Container.js'
+import ContainerMin from '../containers/ContainerMin.js'
 import './Hobbies.css'
 
 import bb8 from './../img/hobbies/bb8.png'
@@ -29,7 +29,7 @@ const hobbies = [
 class Hobbies extends React.Component {
     render () {
         return (
-            <Container>
+            <ContainerMin>
             <ResponsiveMasonry
             columnsCountBreakPoints={{350: 3, 750: 3, 900: 3}}>
               <Masonry>
@@ -43,7 +43,7 @@ class Hobbies extends React.Component {
             )}
             </Masonry>
             </ResponsiveMasonry>
-            </Container>
+            </ContainerMin>
         )
 }}
 

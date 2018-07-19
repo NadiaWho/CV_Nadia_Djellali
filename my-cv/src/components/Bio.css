@@ -1,0 +1,26 @@
+.bio h1, h2 {
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  animation: bg 80s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.8em;
+}
+
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 200em;
+  }
+}

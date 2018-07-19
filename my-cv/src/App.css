@@ -1,0 +1,35 @@
+body {
+font-family: 'Raleway Dots', cursive, sans-serif, serif;
+}
+
+h1, h3 {
+    margin-top: 2em;
+}  
+
+h3, h4, p {
+  color: white;
+  font-size: 1.2em;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration-line: overline;
+}
+
+.ligne {
+  width: 70%;
+  margin-left: -10em;
+  --borderWidth: 0.5px;
+  position: relative;
+}
+
+.ligne:after {
+  content: '';
+  position: absolute;
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  animation: animatedgradient 5s ease alternate infinite;
+  background-size: 300% 300%;       
+}
+  

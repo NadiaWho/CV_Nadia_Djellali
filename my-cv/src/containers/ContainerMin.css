@@ -1,0 +1,11 @@
+.container-min {
+  position: relative;
+  display: flex;
+  margin-bottom: 5em;
+  width: 40%; 
+  border-radius: 0.5em; 
+  background: rgba(255,255,255,0.6);
+  text-align: center;
+  margin-left: 47em;
+} 
+
