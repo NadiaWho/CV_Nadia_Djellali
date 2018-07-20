@@ -1,8 +1,8 @@
 .info-content {
-    width: 55%;
+    width: 200%;
+    height: 28rem;
     margin-left: 4em;
-    padding: 2em;
-    margin-bottom: 5em;
+    margin-right: 4.5rem;
     border-radius: 0.5em;
     background: rgba(22,22,22, 0.7);
     text-align: center;

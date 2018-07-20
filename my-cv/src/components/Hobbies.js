@@ -30,19 +30,10 @@ class Hobbies extends React.Component {
     render () {
         return (
             <ContainerMin>
-            <ResponsiveMasonry
-            columnsCountBreakPoints={{350: 3, 750: 3, 900: 3}}>
-              <Masonry>
-              {hobbies.map((item, i) =>
-            <div className='hobbies_logos' key={i}>
-             <img
-                src={item.src}
-                alt={item.alt}
-            />
+                <div>
+            <span className="swg swg-darthvader"></span>
+            <i class="swg swg-reball swg-lg"></i> swg-lg 
             </div>
-            )}
-            </Masonry>
-            </ResponsiveMasonry>
             </ContainerMin>
         )
 }}

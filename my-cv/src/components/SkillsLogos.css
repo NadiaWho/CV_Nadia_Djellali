@@ -2,6 +2,13 @@
     list-style: none;
     display: inline-block;
     margin-right: 0.5em;
+}
+
+.skills li {
     font-size: 5em;
+    text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 11px #4ef1ff;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 

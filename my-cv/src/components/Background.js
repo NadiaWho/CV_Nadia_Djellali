@@ -6,7 +6,7 @@ const Background = () => {
   return (
       <div className='background'>
         <img src= { img } alt='la_Défense'/>
-        <p id='leitmotiv'><i>"Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie" - Confucius</i></p>
+        <p id='leitmotiv'>Nadia Djellali</p>
       </div>
     )
 }

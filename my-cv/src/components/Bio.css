@@ -1,6 +1,6 @@
 .bio h1, h2 {
   color: transparent;
-  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #fff, #1e5799);
   animation: bg 80s linear infinite;
   background-clip: text;
   -webkit-background-clip: text;

@@ -7,19 +7,19 @@ const SkillsLogos = () => {
             <ContainerMin>
             <div className='skills'>
                 <ul>
-                    <li><i className="fab fa-html5"></i></li>
-                    <li><i className="fab fa-css3-alt"></i></li>
-                    <li><i className="fab fa-js"></i></li>
+                    <li><i className="devicon-html5-plain"></i></li>
+                    <li><i className="devicon-css3-plain"></i></li>
+                    <li><i className="devicon-javascript-plain"></i></li>
                 </ul>
                 <ul>
-                    <li><i className="fab fa-react"></i></li>
-                    <li><i className="fab fa-node-js"></i></li>
-                    <li><i className="devicon-mysql-plain colored"></i></li>    
+                    <li><i className="devicon-react-original"></i></li>
+                    <li><i className="devicon-nodejs-plain"></i></li>
+                    <li><i className="devicon-mysql-plain"></i></li>    
                 </ul>
                 <ul>
-                   <li><i className="devicon-bootstrap-plain colored"></i></li>
-                   <li><i className="devicon-git-plain colored"></i></li>
-                   <li><i className="devicon-travis-plain colored"></i></li>
+                   <li><i className="devicon-bootstrap-plain"></i></li>
+                   <li><i className="devicon-git-plain"></i></li>
+                   <li><i className="devicon-travis-plain"></i></li>
                    
 		
                 </ul>

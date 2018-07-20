@@ -14,6 +14,8 @@ h3, h4, p {
 h3 {
   text-transform: uppercase;
   text-decoration-line: overline;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .ligne {
@@ -21,6 +23,7 @@ h3 {
   margin-left: -10em;
   --borderWidth: 0.5px;
   position: relative;
+  margin-top: 2rem;
 }
 
 .ligne:after {
@@ -32,4 +35,3 @@ h3 {
   animation: animatedgradient 5s ease alternate infinite;
   background-size: 300% 300%;       
 }
-  

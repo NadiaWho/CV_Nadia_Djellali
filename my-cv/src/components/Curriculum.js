@@ -2,10 +2,8 @@ import React from 'react'
 import './Curriculum.css'
 
 import Bio from './Bio'
-import Experiences from './Experiences'
-import Formations from './Formations'
-import SkillsLogos from './SkillsLogos'
-import Hobbies from './Hobbies'
+import FormationSkills from '../containers/FormationSkills'
+import ExperiencesHobbies from '../containers/ExperiencesHobbies'
 import ReturnButton from './ReturnButton'
 import UploadCv from './UploadCv'
 // import BackCv from './BackCv'
@@ -14,15 +12,12 @@ import UploadCv from './UploadCv'
 class Curriculum extends React.Component {
     render () {
         return (
-            <div id='curriculum'>
-            {/* <BackCv /> */}
+            <div className='curriculum'>
             <Bio />
-            <Formations  />
-            <Experiences />
-            <SkillsLogos />
-            {/* <Hobbies /> */}
-            {/* <ReturnButton /> */}
-            {/* <UploadCv /> */}
+            <FormationSkills />
+            <ExperiencesHobbies />
+            {/* <ReturnButton />  */}
+            {/* <UploadCv />  */}
             </div>
         )
     }

@@ -1,7 +1,8 @@
-.hobbies_logos {
-    width: 50%;
+.hobbies_logos, li {
     position: relative;
     display: inline-block;
-    margin: 4em;
-    margin-left: -1.1em;
+}
+
+swg {
+    color: red;
 }
