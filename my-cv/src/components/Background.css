@@ -7,7 +7,14 @@
 #leitmotiv {
     position: relative;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 4rem;
     color: #fff;
     padding-top: 3rem;
+}
+
+#construction {
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
 }
