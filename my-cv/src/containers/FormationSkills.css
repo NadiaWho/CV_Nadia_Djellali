@@ -1,4 +1,6 @@
-.formation-skills {
+.formation-hobbies {
     display: flex;
-    float: left;
+    float: right;
+    width: 90%;
+    margin-right: 9rem;
 }

@@ -16,9 +16,11 @@ class Curriculum extends React.Component {
             <Bio />
             <FormationSkills />
             <ExperiencesHobbies />
-            {/* <ReturnButton />  */}
             {/* <UploadCv />  */}
+            <ReturnButton /> 
+
             </div>
+           
         )
     }
 }

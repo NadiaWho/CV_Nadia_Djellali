@@ -31,8 +31,17 @@ class Hobbies extends React.Component {
         return (
             <ContainerMin>
                 <div>
-            <span className="swg swg-darthvader"></span>
-            <i class="swg swg-reball swg-lg"></i> swg-lg 
+                    <ul>
+                        <li><img src="https://png.icons8.com/color/80/000000/star-wars.png" alt='starwars' /></li>
+                        {/* <li> alt='comics' /></li> */}
+                        <li><img src="https://png.icons8.com/ios/80/000000/air-pilot-hat.png" alt='pilote' /></li>
+                        <li><img src="https://png.icons8.com/ios/80/000000/scuba-mask.png" alt='plongee'/></li>
+                        <li><img src="https://png.icons8.com/ios/80/000000/horseback-riding.png" alt='equitation'/></li>
+                        <li><img src="https://png.icons8.com/nolan/100/000000/museum.png" alt='musee'/></li>
+                        <li><img src="https://png.icons8.com/nolan/100/000000/full-moon.png" alt='espace'/></li>
+                        <li><img src="https://png.icons8.com/nolan/100/000000/airplane-take-off.png" alt='avion' /></li>
+                    </ul>
+            
             </div>
             </ContainerMin>
         )
