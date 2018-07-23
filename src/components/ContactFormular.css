@@ -3,7 +3,7 @@ form {
 }
 
 #subscribers-form h1 {
-    margin-top: 3.13rem;
+    margin-top: 0.5rem;
 }
 
 input {
@@ -12,7 +12,7 @@ input {
 
 textarea {
     width: 52.5rem;
-    height: 10rem;
+    height: 8.2rem;
 }
 
 input[type='text'] {
@@ -29,7 +29,7 @@ input[type='submit'] {
 
 #subscribers-form #box-button {
     position: relative;
-    margin-top: 2.6rem;
+    margin-top: 2rem;
     margin-left: 50rem;
     width: 9rem;
     height: 2.5rem;

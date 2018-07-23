@@ -3,8 +3,12 @@
   display: flex;
   display: inline-block;
   height: 5.92rem;
-  margin-right: 3rem;
+  margin-right: 1.5rem;
   margin-top: 1rem;
+}
+
+#hobbies {
+  
 }
 
 figcaption {

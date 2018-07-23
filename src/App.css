@@ -2,6 +2,10 @@ body {
 font-family: 'Raleway Dots', cursive, sans-serif, serif;
 }
 
+p {
+  line-height: 1.5rem;
+}
+
 .bio, h1, h2 {
   color: transparent;
   background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b,#1098ad, #A22771, #69A0B0, #ef4e7b, #f37055);
@@ -12,12 +16,17 @@ font-family: 'Raleway Dots', cursive, sans-serif, serif;
 }
 
 h1, h3 {
-    margin-top: 2em;
+    margin-top: 0.5em;
 }  
 
-h3, h4, p {
+h3, h4 {
   color: white;
   font-size: 1.2em;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
 }
 
 h3 {
@@ -47,6 +56,10 @@ h4 {
   background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
   animation: animatedgradient 5s ease alternate infinite;
   background-size: 300% 300%;       
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
 }
 
 /* ----- GRADIENT COLOR -----  */
