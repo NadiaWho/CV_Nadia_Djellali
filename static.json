@@ -1,0 +1,13 @@
+{
+    "root": "build/",
+    "clean_urls": true,
+    "routes": {
+        "/static/*": "index.html",
+        "/manifest.json": "/manifest.json",
+        "/service-worker.js": "/service-worker.js",
+        "/asset-manifest.json": "/asset-manifest.json",
+        "/**": "index.html",
+        "/*": "index.html",
+        "https_only": true
+    }
+  }
