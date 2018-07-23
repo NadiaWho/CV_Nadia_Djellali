@@ -1,0 +1,6 @@
+.back_cv img {
+    position: absolute;
+    margin-top: -1rem;
+    width: 100%;
+    opacity: 0.4;
+}

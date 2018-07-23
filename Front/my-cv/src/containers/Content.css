@@ -1,0 +1,11 @@
+.info-content {
+    position: relative;
+    width: 200%;
+    height: 28rem;
+    margin-left: 4em;
+    margin-right: 4.5rem;
+    border-radius: 0.5em;
+    background: rgba(22,22,22, 0.8);
+    text-align: center;
+  }
+  

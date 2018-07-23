@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    width: 90%;
+    margin-left: 4rem;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+    padding-top: 0.3rem;
+    margin-top: 2.3rem;
+    background: rgba(22,22,22, 0.8);
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.fa-rebel {
+    font-size:1.7rem;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.5), 0 0 20px #fff, 0 0 10px #e0c3fc, 0 0 50px #e0c3fc;
+}
+
+.fa-rebel:hover:before {
+    content:'The Force';
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3rem;
+}
+
+.fa-rebel {
+    -webkit-animation: fade 2s infinite alternate;
+    -moz-animation: fade 2s infinite alternate;
+    -o-animation: fade 2s infinite alternate;
+    animation: fade 2s infinite alternate;
+  }

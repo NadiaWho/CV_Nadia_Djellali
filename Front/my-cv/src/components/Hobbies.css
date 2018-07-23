@@ -1,0 +1,29 @@
+#hobbies li {
+  position: relative;
+  display: flex;
+  display: inline-block;
+  height: 5.92rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+figcaption {
+  position: absolute;
+  opacity: 0;
+  font-size: 1.2rem;
+  font-family: 'Audiowide', cursive;
+  line-height: 1.2rem;
+  margin-top: -3rem;
+  text-align: center;
+}
+
+figcaption:hover {
+  opacity: 1;
+  color: black;
+  background: rgba(225, 225, 225, 0.7);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  padding-right: -1rem;
+  transition: 0.5s;
+}

@@ -1,0 +1,36 @@
+form {
+    padding: 0rem 4rem;
+}
+
+#subscribers-form h1 {
+    margin-top: 3.13rem;
+}
+
+input {
+    margin: 0.5rem;
+}
+
+textarea {
+    width: 52.5rem;
+    height: 10rem;
+}
+
+input[type='text'] {
+    width: 25rem;
+}
+
+input[name='phoneNumber'] ,input[name='lastName'] {
+    margin-right: 2rem;
+}
+
+input[type='submit'] {
+    margin-left: 53rem;
+}
+
+#subscribers-form #box-button {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-left: 50rem;
+    width: 9rem;
+    height: 2.5rem;
+}

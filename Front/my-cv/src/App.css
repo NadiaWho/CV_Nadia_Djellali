@@ -1,0 +1,94 @@
+body {
+font-family: 'Raleway Dots', cursive, sans-serif, serif;
+}
+
+.bio, h1, h2 {
+  color: transparent;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b,#1098ad, #A22771, #69A0B0, #ef4e7b, #f37055);
+  animation: bg 100s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: 1em;
+}
+
+h1, h3 {
+    margin-top: 2em;
+}  
+
+h3, h4, p {
+  color: white;
+  font-size: 1.2em;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration-line: overline;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  padding-top: 1rem;
+}
+
+.ligne {
+  width: 70%;
+  margin-left: -20%;
+  --borderWidth: 0.5px;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.ligne:after {
+  content: '';
+  position: absolute;
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  animation: animatedgradient 5s ease alternate infinite;
+  background-size: 300% 300%;       
+}
+
+/* ----- GRADIENT COLOR -----  */
+
+#box-button {
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 7.5em;
+  max-height: 2.8em;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.gradient-button {
+  padding-bottom: 1.5rem;
+  z-index: 1;
+  --borderWidth: 5px;
+  position: relative;
+} 
+
+.gradient-button:after {
+  content: '';
+  position: absolute;
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;       
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} 

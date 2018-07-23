@@ -1,0 +1,14 @@
+.bio-content {
+    position: relative;
+    width: 90%;
+    margin-left: 4rem;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2em;
+    margin-bottom: 4rem;
+    background: rgba(22,22,22, 0.8);
+    text-align: center;
+}
+
+
+
