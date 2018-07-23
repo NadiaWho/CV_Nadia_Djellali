@@ -54,7 +54,7 @@ class ContactFormular extends React.Component {
             <input type='text' name='email' placeholder='Adresse e-mail' value={inputs.email} onChange={this.handleChange}/>
           </label>
           <label>
-          <textarea value={this.state.value} onChange={this.handleChange} placeholder='Votre message...'/>
+          <textarea value={this.state.value} onChange={this.handleChange} placeholder='Cette fonctionnalité sera bientôt disponible...'/>
         </label><br/>
         <label>
          {/* <input type='submit' value='envoyer' /> */}
