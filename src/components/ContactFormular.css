@@ -34,3 +34,19 @@ input[type='submit'] {
     width: 9rem;
     height: 2.5rem;
 }
+
+@media all and (max-width: 1024px) 
+{
+  input {
+    max-width: 15rem;
+  }
+
+  #subscribers-form #box-button {
+      margin: auto;
+  }
+
+    textarea {
+        max-width: 15rem;
+        margin-bottom: 1rem;
+    }
+}

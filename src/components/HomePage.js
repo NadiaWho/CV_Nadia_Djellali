@@ -7,9 +7,9 @@ import EnterButton4 from '../components/EnterButton4'
 const HomePage = () => {
   return (
     <div>
-      {/* <Background /> */}
-      {/* <SocialLogos /> */}
-      {/* <EnterButton4 /> */}
+      <Background />
+      <SocialLogos />
+      <EnterButton4 />
     </div>
   )
 }

@@ -2,8 +2,7 @@ import React from 'react'
 import BioContent from '../containers/BioContent'
 import './Bio.css'
 
-class Bio extends React.Component {
-  render () {
+const Bio = () => {
     return (
       <BioContent>
         <div className='bio'>
@@ -13,8 +12,7 @@ class Bio extends React.Component {
                 <p>57 avenue de la République, 75011 Paris - djellali.nadia@gmail.com - 06.64.83.45.23</p>
             </div>
       </BioContent>
-        )
-    }
+  )
 }
 
 export default Bio

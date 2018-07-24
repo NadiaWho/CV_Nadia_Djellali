@@ -19,3 +19,17 @@
   text-align: center;
   line-height: 3.3rem;
 }
+
+@media all and (max-width: 1074px) {
+  .background img {
+    display: none;
+  }
+
+  .background {
+    background-color: pink;
+  }
+
+  #my-name {
+    font-size: 2rem;
+  }
+}
