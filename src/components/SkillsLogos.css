@@ -21,3 +21,12 @@
     margin-right: 5rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .skills li {
+        font-size: 3.4rem;
+        margin-right: 1rem;
+        height: 6.07rem;
+    }
+}
+

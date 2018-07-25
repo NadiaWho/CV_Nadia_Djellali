@@ -4,3 +4,8 @@
     width: 91%;
     margin-left: 0.07rem;
 }
+
+@media (min-width: 768px) and (max-width: 1279px){
+    .experience-hobbies {
+    }
+}

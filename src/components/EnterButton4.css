@@ -147,6 +147,6 @@ font-family: 'Audiowide', cursive;
 
 @media (orientation: landscape) and (max-width : 1024px) {
   .sign {
-    margin-top: 14rem;
+    margin-top: 26rem;
   }
 }
