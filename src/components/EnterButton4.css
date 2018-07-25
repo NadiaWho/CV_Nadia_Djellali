@@ -144,3 +144,9 @@ font-family: 'Audiowide', cursive;
     margin-top: 39rem;
   }
 }
+
+@media (orientation: landscape) and (max-width : 1024px) {
+  .sign {
+    margin-top: 14rem;
+  }
+}

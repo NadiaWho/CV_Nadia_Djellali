@@ -39,3 +39,9 @@
         margin-left: 6rem;
     }
 }
+
+@media (orientation: landscape) and (max-width : 1024px) {
+    .footer {
+        margin-left: 0.8rem;
+    }
+}

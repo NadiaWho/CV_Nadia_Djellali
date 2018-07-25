@@ -33,3 +33,11 @@
     margin-top: 8rem;
     }
 }
+
+@media (orientation: landscape) and (max-width : 1024px) { 
+    .socials li {
+        font-size: 4rem;
+        margin-left: 1.2rem;
+        margin-bottom: 5rem;
+    }
+}

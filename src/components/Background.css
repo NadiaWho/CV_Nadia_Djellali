@@ -20,16 +20,16 @@
   line-height: 3.3rem;
 }
 
-@media all and (max-width: 1074px) {
+/* @media (min-width: 768) and (max-width: 1279) {
   .background img {
-    display: none;
+    height: 100%;
+  }
+} */
+
+@media (orientation: landscape) and (max-width : 1024px) {
+  .background img {
   }
 
-  .background {
-    background-color: pink;
+  
   }
 
-  #my-name {
-    font-size: 2rem;
-  }
-}
