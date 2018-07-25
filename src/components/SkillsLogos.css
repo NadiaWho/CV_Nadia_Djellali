@@ -14,8 +14,10 @@
     -webkit-background-clip: text;
 }
 
-@media all and (max-width: 1074px) {
-    .skills , li {
-        font-size: 1.2rem;
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .skills li{
+    margin-top: 2rem;
+    font-size: 5rem;
+    margin-right: 5rem;
     }
 }

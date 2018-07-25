@@ -24,3 +24,12 @@
 .socials ::before {
     color: white;
 }
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+.socials li {
+    display: flex;
+    display: inline-block;
+    margin-left: 3.5rem;
+    margin-top: 8rem;
+    }
+}

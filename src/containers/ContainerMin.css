@@ -7,3 +7,9 @@
   background: rgba(22, 22, 22, 0.8);
   text-align: center;
 } 
+
+@media (min-width: 1441px) and (max-width: 1920px){
+  .container-min {
+    padding: 6rem 2rem;
+  }
+}

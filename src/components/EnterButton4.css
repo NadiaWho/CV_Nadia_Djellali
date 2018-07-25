@@ -139,8 +139,8 @@ font-family: 'Audiowide', cursive;
   }
 }
 
-@media (min-width: 1441px) and (max-width: 1024px) {
-  .footer {
-      margin-top: 30rem;
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .sign {
+    margin-top: 39rem;
   }
 }

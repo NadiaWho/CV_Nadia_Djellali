@@ -106,3 +106,14 @@ a:-webkit-any-link {
   }
 } 
 
+
+
+@media (min-width: 1440px) and (max-width: 1920px){
+  h3 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}

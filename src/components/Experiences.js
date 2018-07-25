@@ -8,8 +8,8 @@ const Experiences = () => {
                     <h3>Expériences</h3>
                     <h4>Responsable Vendeuse | Maisons du Monde, Chartres Mars 2007 - Février 2018</h4>
                         <p>J’ai été durant 11 ans le bras droit de la Directrice de magasin, ayant à ma tête une 
-                        équipe de dix personnes. J’ai également fait des missions de management sur plusieurs sites. <br/>
-                        [management, gestion de boutique, relation clientèle, force de vente]</p>
+                        équipe de dix personnes.</p> <p>J’ai également fait des missions de management sur plusieurs sites.</p> <br/>
+                        <p>[management, gestion de boutique, relation clientèle, force de vente]</p>
                     
                     <div className='ligne' />  
 
