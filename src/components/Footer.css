@@ -45,3 +45,9 @@
         margin-left: 0.8rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .footer {
+        margin-left: 2.3rem;
+    }
+}

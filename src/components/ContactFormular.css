@@ -53,3 +53,19 @@ input[type='submit'] {
         margin-bottom: 8rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1279px){
+    form {
+        padding : 3rem 8rem;
+    }
+    textarea {
+        width: 25rem;
+    }
+    #subscribers-form #box-button {
+        margin-left: 21rem;
+        margin-bottom: 1.2rem;
+    }
+    input[name='phoneNumber'] ,input[name='lastName'] {
+        margin-right: 0.5rem;
+    }
+}
