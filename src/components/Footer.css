@@ -34,8 +34,3 @@
     animation: fade 2s infinite alternate;
   }
 
-@media all and (max-width: 1024px) {
-    .footer {
-        margin-left: 20%;
-    }
-}
