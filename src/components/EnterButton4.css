@@ -4,15 +4,15 @@ font-family: 'Audiowide', cursive;
 
 .sign {
   position: relative;
-  font-size: 0.8rem;
-  line-height: 2.5em;
+  line-height: 4.5em;
   border: 0.5px solid #fff;
   background: rgba(25, 25, 25 ,0.3);
   border-radius: 1em;
-  width: 19em;
+  width: 26em;
   margin: auto;
   padding: 0.7em;
-  margin-top: 22.3rem;
+  margin-top: 37.55rem;
+  margin-bottom: 3rem;
 }
 
 #blink {
@@ -38,12 +38,12 @@ font-family: 'Audiowide', cursive;
   text-align: center;
   color: #ebffff;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.3), 0 0 20px #38eeff, 0 0 50px #38eeff, 0 0 30px #38eeff;
-  font-size: 3.5em;
+  font-size: 4em;
   position: relative;
 }
 
 .neon-white {
-  font-size: 1em;
+  font-size: 1.5em;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -139,14 +139,3 @@ font-family: 'Audiowide', cursive;
   }
 }
 
-@media (min-width: 1281px) and (max-width: 1920px) {
-  .sign {
-    margin-top: 39rem;
-  }
-}
-
-@media (orientation: landscape) and (max-width : 1024px) {
-  .sign {
-    margin-top: 26rem;
-  }
-}

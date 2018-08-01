@@ -1,32 +1,16 @@
 .skills li {
+    position: relative;
     list-style: none;
+    display: flex;
     display: inline-block;
-    margin-right: 3rem;
-    margin-top: 1rem;
-    height: 5.92rem;
+    padding-right: 4rem;
+    margin-top: 0.7rem;
+    font-size: 5.7em;
 }
 
 .skills li {
-    font-size: 3.5em;
     text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 11px #4ef1ff;
     color: white;
     background-clip: text;
     -webkit-background-clip: text;
 }
-
-@media (min-width: 1281px) and (max-width: 1920px) {
-    .skills li{
-    margin-top: 2rem;
-    font-size: 5rem;
-    margin-right: 5rem;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1279px) {
-    .skills li {
-        font-size: 3.4rem;
-        margin-right: 1rem;
-        height: 6.07rem;
-    }
-}
-

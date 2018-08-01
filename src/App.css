@@ -1,9 +1,11 @@
 body {
-font-family: 'Raleway Dots', cursive, sans-serif, serif;
+  font-family: 'Raleway Dots', cursive, sans-serif, serif;
 }
 
 p {
   line-height: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .bio, h1, h2 {
@@ -21,12 +23,7 @@ h1, h3 {
 
 h3, h4 {
   color: white;
-  font-size: 1.2em;
-}
-
-p {
-  color: white;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 h3 {
@@ -65,24 +62,24 @@ a:-webkit-any-link {
 /* ----- GRADIENT COLOR -----  */
 
 #box-button {
-  position: relative;
+  position: absolute;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  max-width: 7.5em;
-  max-height: 2.8em;
+  width: 7.5em;
+  height: 2.5em;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
+  border-radius: 5rem;
+  margin-top: -15rem;
 }
-.gradient-button {
-  padding-bottom: 1.5rem;
+.btn-default {
   z-index: 1;
-  --borderWidth: 5px;
-  position: relative;
+  --borderWidth: 10px;
 } 
 
-.gradient-button:after {
+.btn-default:after {
   content: '';
   position: absolute;
   height: calc(100% + var(--borderWidth) * 2);
@@ -105,30 +102,3 @@ a:-webkit-any-link {
     background-position: 0% 50%;
   }
 } 
-
-
-
-@media (min-width: 1441px) and (max-width: 1920px){
-  h3 {
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1279px){
-  p {
-    font-size: 0.7rem;
-  }
-  h3{
-    font-size: 1rem;
-  }
-  h4 {
-    font-size: 0.8rem;
-  }
-  p {
-    line-height: 1rem;
-  }
-}

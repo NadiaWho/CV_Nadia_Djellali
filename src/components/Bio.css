@@ -1,17 +1,20 @@
-h1 {
-  font-size: 3.5em;
+.bio-content .bio h1 {
+  font-size: 6rem;
 }
 
 h2 {
-  font-size: 2.8em;
+  font-size: 3.5em;
 }
 
 @keyframes bg {
   0% {
-    background-position-x: 50em;;
+    background-position-x: 50em;
   }
   100% {
     background-position-x: 200em;
   }
 }
+
+
+
 

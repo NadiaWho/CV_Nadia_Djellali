@@ -1,4 +1,5 @@
 import React from 'react'
+import { Grid, Row, Col } from 'react-bootstrap'
 import './FormationSkills.css'
  
 import Formations from '../components/Formations'
@@ -6,10 +7,16 @@ import SkillsLogos from '../components/SkillsLogos'
 
 const FormationSkills = () => {
     return (
+        <Grid>
+            <Row>
+                <Col lg={12} lgOffset={0}>
         <div className='formation-skills'>
             <Formations />
             <SkillsLogos />
         </div>
+        </Col>
+        </Row>
+        </Grid>
     )
 }
 

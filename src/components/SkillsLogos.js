@@ -6,7 +6,7 @@ const SkillsLogos = () => {
         return (
             <ContainerMin>
             <div className='skills'>
-            <p><u>COMPETENCES</u></p>
+            <h4><u>COMPETENCES</u></h4>
             <div className='ligne' />
                 <ul>
                     <li><i className="devicon-html5-plain"></i></li>

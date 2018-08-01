@@ -1,15 +1,10 @@
 .container-min {
   position: relative;
-  width: 120%; 
-  height: 89%;
+  height: 35rem;
   padding: 1rem;
   border-radius: 0.5em; 
   background: rgba(22, 22, 22, 0.8);
   text-align: center;
+  overflow: scroll;
+  overflow: hidden;
 } 
-
-@media (min-width: 1281px) and (max-width: 1920px){
-  .container-min {
-    padding: 6rem 2rem;
-  }
-}

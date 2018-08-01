@@ -6,10 +6,10 @@ const Hobbies = () => {
   return (
     <ContainerMin>
       <div id='hobbies'>
-        <p><u>CENTRES D'INTERET</u></p>
+        <h4><u>CENTRES D'INTERET</u></h4>
         <div className='ligne' />
           <ul>
-            <li><img src="https://png.icons8.com/ios/80/D2EFEF/star-wars.png" alt='starwars'/>
+            <li><img src="https://png.icons8.com/ios/80/D2EFEF/star-wars.png" alt='starwars'/> 
             <figcaption> Univers Star Wars</figcaption></li>
 
             <li><img src="https://png.icons8.com/metro/80/D2EFEF/batman-old.png" alt='comics'/>

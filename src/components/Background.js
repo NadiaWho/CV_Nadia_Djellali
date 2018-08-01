@@ -8,7 +8,6 @@ const Background = () => {
         <img src= { img } alt='la_Défense'/>
         <div>
         <p id='my-name'>Nadia Djellali</p>
-        <p>...site en construction...</p>
         </div>
       </div>
     )

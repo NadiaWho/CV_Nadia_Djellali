@@ -1,9 +1,8 @@
 .socials {
     position: absolute;
-    z-index: 8000;
-    font-size: 6em;
-    margin-left: 20%;
-    padding-top: 0.5em;
+    font-size: 7rem;
+    margin-left: 24%;
+    padding-top: 1em;
     text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 8px rgba(255,255,255,1) , 0 0 12px rgba(255,255,255,1)  , 0 0 11px #e8147b ;
     -webkit-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
     -moz-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -11,33 +10,16 @@
     transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
   }
   
-.socials li {
+.socials a {
     list-style: none;
     display: inline-block;
     margin-right: 1em;
   }
 
-.socials li:hover {
+.socials a:hover {
     text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 
 .socials ::before {
     color: white;
-}
-
-@media (min-width: 1281px) and (max-width: 1920px) {
-.socials li {
-    display: flex;
-    display: inline-block;
-    margin-left: 3.5rem;
-    margin-top: 8rem;
-    }
-}
-
-@media (orientation: landscape) and (max-width : 1024px) { 
-    .socials li {
-        font-size: 4rem;
-        margin-left: 1.2rem;
-        margin-bottom: 5rem;
-    }
 }
