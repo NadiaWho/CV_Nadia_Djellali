@@ -1,4 +1,4 @@
-h1 , h2 , h3, h4 {
+h1 , h2 , h3, h4 , h5{
   font-family: 'Raleway Dots', cursive, sans-serif, serif !important;
 }
 
@@ -71,12 +71,10 @@ a:-webkit-any-link {
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 8.5em;
-  height: 3.5em;
+  width: 18em;
+  height: 7em;
   color: transparent;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-top: -15rem;
+  margin-top: -14rem;
 }
 
 .btn-default {
@@ -90,6 +88,10 @@ a:-webkit-any-link {
   -o-animation: animatedgradient 3s ease alternate infinite;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;       
+}
+
+h5 {
+  font-size: 2rem;
 }
 
 @keyframes animatedgradient {

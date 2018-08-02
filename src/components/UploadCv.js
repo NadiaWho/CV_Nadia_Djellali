@@ -8,7 +8,7 @@ const UploadCv = () => {
          sm={1} smOffset={2}
          md={1} mdOffset={2}
          lg={1} lgOffset={2}>
-      <div className="btn-default" id='box-button'><h4> C.V version papier</h4></div>
+      <div className="btn-default" id='box-button'><h5> C.V version papier</h5></div>
     </Col>
     </div>
   )

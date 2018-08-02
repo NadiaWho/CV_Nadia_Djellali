@@ -10,7 +10,7 @@ const ReturnButton = () => {
                  sm={1} smOffset={2}
                  md={1} mdOffset={2}
                  lg={1} lgOffset={2}>
-            <div className="btn-default" id='box-button'><h4>  Retour à la page d'accueil</h4> </div>
+            <div className="btn-default" id='box-button'><h5>  Retour à la page d'accueil</h5> </div>
             </Col>
             </div>
             </Link> 

@@ -69,7 +69,7 @@ class ContactFormular extends React.Component {
 
     <div className='formular-button'>
     <Col xsOffset={7} mdOffset={9} lgOffset={10}>
-      <Button className="btn-default" id='box-button'><h4>  > Envoyez</h4></Button>
+      <Button className="btn-default" id='box-button'><h5>  > Envoyez</h5></Button>
     </Col>
       
       </div>
