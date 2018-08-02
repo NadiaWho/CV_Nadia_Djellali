@@ -10,7 +10,7 @@ const ContactButton = () => {
            sm={1} smOffset={2}
            md={1} mdOffset={8}
            lg={1} lgOffset={8}>
-        <div className="btn-default" id='box-button'>  Envoyez moi un message </div>
+        <div className="btn-default" id='box-button'><h4>  Envoyez moi un message </h4></div>
      </Col>
       </div>
       </Link>
