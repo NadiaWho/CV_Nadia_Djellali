@@ -7,7 +7,7 @@ const Background = () => {
       <div className='background'>
         <img src= { img } alt='la_Défense'/>
         <div>
-        <p id='my-name'>Nadia Djellali</p>
+        <h1 id='my-name'>Nadia Djellali</h1>
         </div>
       </div>
     )

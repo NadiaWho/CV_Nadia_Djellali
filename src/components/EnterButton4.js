@@ -1,5 +1,4 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
 import { Link } from '@reach/router'
 
 import './EnterButton4.css'
@@ -7,14 +6,12 @@ import './EnterButton4.css'
 class EnterButton4 extends React.Component {
   render () {
     return (
-      <Col xs={8} md={12} lg={12}>
-      <div class="sign">
+      <div className="sign">
         <Link to='/Curriculum'>
-        <div class="neon-blue">V<span class="sizzle">oir</span> mo<span class="sizzle">n</span></div>
-        <div class="neon-blue"><span class="neon-white">C</span><span class="point">.</span><span class="neon-white" id="blink">V</span></div>
+        <div className="neon-blue">V<span className="sizzle">oir</span> mo<span className="sizzle">n</span></div>
+        <div className="neon-blue"><span className="neon-white">C</span><span className="point">.</span><span className="neon-white" id="blink">V</span></div>
         </Link>
       </div>
-      </Col>
     )
   }
 }

@@ -2,23 +2,18 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  position: fixed;
   opacity: 0.5;
   background-size: cover;
+  margin-top: -1rem;
 }
 
 #my-name {
   position: relative;
   text-align: center;
-  font-size: 6rem;
-  padding-top: 7rem;  
+  font-size: 8rem;
+  font-weight: 500;
+  padding-top: 1rem;  
   color: #fff;
-  text-shadow: 3px 3px 2px rgba(0,0,0,0.5), 0 0 20px #fff, 0 0 10px #e0c3fc, 0 0 50px #e0c3fc;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5), 0 0 20px #fff, 0 0 10px #e0c3fc, 0 0 20px #e0c3fc;
 
-}
-
-.background p {
-  position: relative;
-  text-align: center;
-  line-height: 3.3rem;
 }
