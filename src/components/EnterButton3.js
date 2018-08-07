@@ -2,13 +2,13 @@ import React from 'react'
 import './EnterButton3.css'
 
 class EnterButton3 extends React.Component {
-  render(){ 
+  render () {
     return (
       <div class="enterButton">
         <b>Voir mon <span>C.V</span></b>
-      </div>	
-  )
- }
+      </div>
+    )
+  }
 }
 
 export default EnterButton3

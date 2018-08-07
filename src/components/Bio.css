@@ -3,6 +3,10 @@
   font-weight: 600;
 }
 
+.bio-content a {
+  color: #fff;
+}
+
 h2 {
   font-size: 3.5em;
   font-weight: 600;

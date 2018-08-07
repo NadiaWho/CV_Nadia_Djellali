@@ -10,19 +10,19 @@ import ContactButton from './ContactButton'
 import BackCv from './BackCv'
 
 class Curriculum extends React.Component {
-    render () {
-        return (
-            <div className='curriculum'>
-            <BackCv />
-            <Bio />
-            <FormationSkills />
-            <ExperiencesHobbies />
-            <UploadCv />
-            <ReturnButton /> 
-            <ContactButton />
-            </div>
-        )
-    }
+  render () {
+    return (
+      <div className='curriculum'>
+        <BackCv />
+        <Bio />
+        <FormationSkills />
+        <ExperiencesHobbies />
+        <UploadCv />
+        <ReturnButton />
+        <ContactButton />
+      </div>
+    )
+  }
 }
 
 export default Curriculum

@@ -2,7 +2,6 @@
     width: 100%;
     position: absolute;
     font-size: 7rem;
-    /* margin-left: 24%; */
     padding-top: 1em;
     text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 8px rgba(255,255,255,1) , 0 0 12px rgba(255,255,255,1)  , 0 0 11px #e8147b ;
     -webkit-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -14,7 +13,6 @@
 .socials a {
     list-style: none;
     display: inline-block;
-    /* margin-right: 1em; */
   }
 
 .socials a:hover {

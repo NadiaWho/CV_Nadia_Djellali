@@ -4,15 +4,11 @@
 }
 
 form {
-    height: 48rem;
+    height: 29.7rem;
 }
 
 input {
     margin-bottom: 0.5rem;
-}
-
-#formTextarea {
-    height: 10rem;
 }
 
 .formular-button #box-button {
