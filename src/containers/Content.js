@@ -1,18 +1,18 @@
 import React from 'react'
-import  { Container, Row, Col } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import './Content.css'
 
 const Content = ({children}) => {
   return (
-     <Container>
-      <Row> 
+    <Container>
+      <Row>
         <Col>
-    <div className="info-content">
-          {children}
-     </div>
+          <div className="info-content">
+            {children}
+          </div>
         </Col>
       </Row>
-     </Container>
+    </Container>
   )
 }
 

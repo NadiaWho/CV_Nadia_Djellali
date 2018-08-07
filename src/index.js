@@ -7,8 +7,7 @@ import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
 ReactDOM.render(
-    <Router>
-      <App path='/*' />
-    </Router>, document.getElementById('root'))
+  <Router>
+    <App path='/*' />
+  </Router>, document.getElementById('root'))
 registerServiceWorker()
-  
