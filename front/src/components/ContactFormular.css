@@ -1,0 +1,19 @@
+.ContactFormular, h1 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+form {
+    height: 38.3rem;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+.formular-button #box-button {
+    position: absolute;
+    width: 15rem;
+    height: 5rem;
+    margin-top: 33rem;
+}

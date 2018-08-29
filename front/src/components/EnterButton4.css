@@ -1,0 +1,142 @@
+.neon-blue {
+font-family: 'Audiowide', cursive;
+}
+
+.sign {
+  position: relative;
+  z-index: 1;
+  line-height: 4.5em;
+  border: 0.5px solid #fff;
+  background: rgba(25, 25, 25 ,0.3);
+  border-radius: 1em;
+  width: 26em;
+  margin: auto;
+  padding: 0.7em;
+  margin-top: 17rem;
+  margin-bottom: 7rem;
+}
+
+#blink {
+  -webkit-animation: blink 0.01s infinite alternate;
+  -moz-animation: blink 0.01s infinite alternate;
+  -o-animation: blink 0.01s infinite alternate;
+  animation: blink 0.01s infinite alternate;
+}
+
+.sizzle, #point {
+  color: #ebffff;
+  -webkit-animation: fade 3s infinite alternate;
+  -moz-animation: fade 3s infinite alternate;
+  -o-animation: fade 3s infinite alternate;
+  animation: fade 3s infinite alternate;
+}
+
+.point {
+  font-size: 1.5em;
+}
+  
+.neon-blue {
+  text-align: center;
+  color: #ebffff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.3), 0 0 20px #38eeff, 0 0 50px #38eeff, 0 0 30px #38eeff;
+  font-size: 4em;
+  position: relative;
+}
+
+.neon-white {
+  font-size: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.5), 0 0 20px #fff, 0 0 10px #e0c3fc, 0 0 50px #e0c3fc;
+}
+
+@-moz-keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+@-webkit-keyframes blink {
+  45% {
+    opacity: 0.5;
+  }
+}
+@-o-keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+@keyframes blink {
+  70% {
+    opacity: 0.7;
+  }
+}
+@-moz-keyframes fade {
+  40% {
+    opacity: 0.8;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes fade {
+  40% {
+    opacity: 0.8;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 0.8;
+  }
+}
+@-o-keyframes fade {
+  40% {
+    opacity: 0.8;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 0.8;
+  }
+}
+@keyframes fade {
+  40% {
+    opacity: 0.8;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 0.8;
+  }
+}
+

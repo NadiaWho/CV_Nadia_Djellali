@@ -1,0 +1,23 @@
+.socials {
+    font-size: 8rem;
+    margin-top: 6.5rem;
+    padding-left: 7rem;
+    text-shadow: 0 0 5px rgba(255,255,255,1) , 0 0 8px rgba(255,255,255,1) , 0 0 12px rgba(255,255,255,1)  , 0 0 11px #e8147b ;
+    -webkit-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 3s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  
+.socials a {
+    list-style: none;
+    display: inline-block;
+  }
+
+.socials a:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+.socials ::before {
+    color: white;
+}
