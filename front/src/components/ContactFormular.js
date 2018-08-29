@@ -91,7 +91,7 @@ class ContactFormular extends React.Component {
       //     err => this.setState({'flash': err.flash})
       //   )
 
-      fetch('https://nadia-djellali.com/auth/send-email', {
+      fetch('https://nadiadjellali.com/auth/send-email', {
         method: 'POST',
         headers: new Headers({'Content-Type': 'application/json'
         }),
