@@ -46,6 +46,11 @@ h4 {
   padding-top: 1rem;
 }
 
+h5 {
+  font-size: 2rem;
+  color: transparent;
+}
+
 .ligne {
   width: 70%;
   margin-left: -20%;
@@ -93,10 +98,6 @@ a:-webkit-any-link {
   -o-animation: animatedgradient 3s ease alternate infinite;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;       
-}
-
-h5 {
-  font-size: 2rem;
 }
 
 @keyframes animatedgradient {

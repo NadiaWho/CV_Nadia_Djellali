@@ -3,8 +3,12 @@
     margin-top: 1rem;
 }
 
+.ContactFormular, .background, img {
+    margin-bottom: 1rem;
+}
+
 form {
-    height: 38.3rem;
+    height: 36.7rem;
 }
 
 input {
