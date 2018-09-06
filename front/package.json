@@ -50,12 +50,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NadiaWho/CV_Ndia_Djellali.git"
+    "url": "git+https://github.com/NadiaWho/CV_Nadia_Djellali.git"
   },
   "author": "Nadia Djellali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NadiaWho/CV_Ndia_Djellali/issues"
+    "url": "https://github.com/NadiaWho/CV_Nadia_Djellali/issues"
   },
-  "homepage": "https://github.com/NadiaWho/CV_Ndia_Djellali#readme"
+  "homepage": "https://github.com/NadiaWho/CV_Nadia_Djellali#readme"
 }
