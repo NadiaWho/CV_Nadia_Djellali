@@ -29,7 +29,7 @@ const Hobbies = () => {
           <li><img src="https://png.icons8.com/ios/90/D2EFEF/scuba-diving-filled.png" alt='plongee'/>
             <figcaption>Plongée sous marine</figcaption></li>
 
-           <li><img src="https://png.icons8.com/dotty/90/D2EFEF/airplane-take-off.png" alt='avion' />
+           <li><img src="https://png.icons8.com/wired/90/D2EFEF/airport.png" alt='avion' />
             <figcaption>Les Voyages (Amériques Centrale et Sud)</figcaption></li>
           
           {/* <li><img src="https://png.icons8.com/ios-glyphs/90/D2EFEF/equestrian.png" alt='equitation'/> */}
