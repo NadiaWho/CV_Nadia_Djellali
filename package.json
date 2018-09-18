@@ -15,6 +15,7 @@
     "nodemailer": "^4.6.7",
     "nodemailer-smtp-transport": "^2.7.4",
     "nodemon": "^1.18.3",
+    "passenger": "^1.0.0",
     "pushstate-server": "^3.0.1",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.1",
